@@ -1,0 +1,68 @@
+<html>
+<body>
+<head>
+<title>Methods of string and array</title>
+<h1>Methods of string and array</h1>
+<script>
+var str="hii how are you";
+var str2="we are studying java script with letsupgrade";
+
+var arr1=["Banana", "Orange", "Apple", "Mango"];
+var array1=["Rose","Lotus","Lily","Champa","Mogra"];
+
+arr2=arr1.join("*");
+console.log(arr2);
+
+arr3=arr1.shift()
+console.log(arr3);
+console.log(arr1);
+
+arr4=arr1.unshift("Lemon");
+console.log(arr4);
+
+arr5=arr1[0] = "Kiwi"; 
+console.log(arr5);
+console.log(arr1);
+
+arr6=delete arr1[0]
+console.log(arr6);
+console.log(arr1);
+
+arr7=arr1.splice(2, 0, "Lemon", "Kiwi");
+console.log(arr7);
+console.log(arr1);
+
+arr8=arr1.splice(0,1);
+console.log(arr8);
+console.log(arr1);
+
+var array2=arr1.concat(array1)
+console.log(array2);
+
+var array3 = arr1.slice(4);
+console.log(array3);
+console.log(arr1);
+
+console.log(str);
+var res=str.substring(5,9);
+console.log(res);
+
+var replace=str.replace("how","where");
+console.log(replace);
+//var replaceall=str.replaceall("Hi I am studying with lets upgrade");
+//console.log(replaceall);
+
+var search=str.search("how");
+console.log(search);
+
+var str3 = str.concat(" ", str2);
+console.log(str3);
+
+//splice and replaceall
+//used-length,lower upper,indexof lastindexof charat endswitch split
+
+//array-reverse concat appen remove push pop 
+</script>
+</head>
+</body>
+</html>
